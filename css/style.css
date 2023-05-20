@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+:root{
+    --color1: #3bcfcb;
+    --color2: #f8f9f9;
+    --color3: #656565;
+}
+header{
+    background-image: url(../img/Слой\ 1.png);
+    padding-bottom: 200px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-nav{
+    padding-bottom: 150px;
+}
+.nav11{
+    padding-top: 20px;
+    padding-bottom: 150px;
+}
+.nav-item a{
+    font-family: "Montserrat";
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: var(--color1);
+}
+.site-logo{
+    padding: 45px 0;
+}
+.title {
+    font-family: "Montserrat";
+    font-weight: bolder;
+    display: flex;
+}
+.description{
+    font-size: 18px;
+    display: flex;
+    font-family: "Nunito Sans";
+    color: #787878;
+}
+.btn-contact{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    background-color: var(--color1);
+    height: 53px;
+    width: 180px;
+    overflow: hidden;
+}
+.btn-contact a{
+    display: block;
+    background-color: var(--color1);
+    color: white;
+    font-family: "Montserrat";
+    font-size: 12px;
+    width: 180px;
+    line-height: 53px;
+    transition: 0.3s;
+}
+.btn-contact a:hover{
+    transition: 0.3s;
+    background-color: #34b7b3;
+}
+.about-us{
+    padding: 100px 0 100px;
+}
+.skill{
+    font-family: "Montserrat";
+    font-weight: bold;
+}
+.skillss{
+    background-color: var(--color2);
+}
+.progressbar{
+    height: 3px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #d8d8d8;    
+}
+.progressbar1in{
+    height: 3px;
+    width: 75%;
+    max-width: 500px;
+    background-color: var(--color1);  
+}
+.progressbar2in{
+    height: 3px;
+    width: 90%;
+    max-width: 500px;
+    background-color: var(--color1);  
+}
+.progressbar3in{
+    height: 3px;
+    width: 65%;
+    max-width: 500px;
+    background-color: var(--color1);  
+}
+.numberss{
+    background-color: var(--color1);
+}
+.numbers{
+    padding: 100px 0 100px;
+    display: flex;
+    align-items: center;
+}
+.numbers *{
+    margin: 0;
+}
+.numbers i{
+    font-size: 35px;
+    padding-right: 25px;
+}
+.numbers h3{
+    font-size: 20px;
+}
+.numbers p{
+    font-size: 14px;
+}
+.numbers h3,.numbers i,.numbers p{
+    color: white;
+    font-family: "Montserrat";
+    font-weight: 500;
+}
+.imgCards{
+    margin: 0;
+    padding: 0;
+    transition: all 0.3s ease;
+}
+.imgCards:hover{
+    filter: brightness(70%);
+}
+.imgs{
+    background-color: var(--color2);
+}
+.servicecard i{
+    font-size: 48px;
+    color: var(--color3);
+}
+.servicecard h3{
+    font-family: "Montserrat";
+    font-weight: bold;
+    color: var(--color3);
+    font-size: 12px;
+}
+.servicecard p{
+    font-family: "Maven Pro";
+    color: var(--color3);
+    font-size: 16px;
+}
+.servicesblock{
+    padding-top: 100px;
+    background-color: var(--color2);
+    padding-bottom: 100px;
+}
+
+
+.my-carousel{
+    background-color: var(--color1);
+}
+.item-inner{
+    display: flex;
+    margin: 0 auto;
+    max-width: 75%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+}
+.text123 p{
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+}
+.text123 h4{
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+}
+.parthner-logo{
+    padding: 65px 0 65px;
+}
+.nap{
+    background-color: var(--color2);
+}
+.need-a-project h1{
+    margin: 0;
+    padding: 100px 0 40px;
+    font-size: 30px;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    color: rgb(29, 29, 29);
+}
+.need-a-project p{
+    margin: 0;
+    font-size: 16px;
+    font-family: "Nunito Sans";
+    color: rgb(120, 120, 120);
+    padding-bottom: 40px;
+}
+.nap {
+    padding-bottom: 40px;
+}
+.footer{
+    padding: 40px 0 40px;
+    background-color: black ;
+}
+.footer li {
+    list-style: none;
+}
+.footer li a{
+    color: var(--color2);
+    text-decoration: none;
+}
+.links-mobile{
+    display: none;
+}
+.accordion-button{
+    font-family: "Montserrat";
+    background-color: black;
+}
+.collapsed{
+    color: white;
+    border: none;
+}
+.accordion-body{
+    background-color: black;
+}
+.accordion-flush .accordion-item .accordion-button{
+    border: none;
+}
+.accordion-item{
+    border: none;
+}
+.accordion-button:not(.collapsed){
+    color: white;
+    background-color: black;
+    border: none;
+}
+.accordion-button:focus{
+    border: none;
+    box-shadow: none;
+}
+.accordion-button:not(.collapsed)::after{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23212529'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+}
+.form-control:focus{
+    border-color: var(--color1);
+    box-shadow: none;
+}
+@media (max-width: 1200px) {
+    .links{
+        display: none;
+    }
+    .links-mobile{
+        display: block;
+    }
+    .need-a-project-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .aboutcontact {
+        justify-content: center;
+    }
+}    
+@media (max-width: 575px) {
+    .numbers{
+        padding: 50px 0 50px;
+    }
+    .need-a-project-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .aboutcontact {
+        justify-content: center;
+    }
+    .title{
+        justify-content: center;
+    }
+    .description{
+        justify-content: center;
+    }
+}
